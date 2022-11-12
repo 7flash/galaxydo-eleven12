@@ -1,0 +1,13 @@
+
+> ten30-next-second@0.1.0 lint /home/berliangur/ten30/ten30-next-second
+> next lint
+
+warn  - Invalid next.config.js options detected: 
+  - The root value has an unexpected property, api, which is not in the list of allowed properties (amp, analyticsId, assetPrefix, basePath, cleanDistDir, compiler, compress, crossOrigin, devIndicators, distDir, env, eslint, excludeDefaultMomentLocales, experimental, exportPathMap, generateBuildId, generateEtags, headers, httpAgentOptions, i18n, images, onDemandEntries, optimizeFonts, output, outputFileTracing, pageExtensions, poweredByHeader, productionBrowserSourceMaps, publicRuntimeConfig, reactStrictMode, redirects, rewrites, sassOptions, serverRuntimeConfig, staticPageGenerationTimeout, swcMinify, trailingSlash, typescript, useFileSystemPublicRoutes, webpack).
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+
+./pages/api/lib/ignorePaths.js
+1:1  Warning: Assign array to a variable before exporting as module default  import/no-anonymous-default-export
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules

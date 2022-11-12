@@ -1,0 +1,32 @@
+{
+  "name": "ten30-next-second",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "tauri": "tauri",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@excalidraw/excalidraw": "^0.13.0",
+    "@speechly/react-client": "^2.2.0",
+    "@speechly/react-ui": "^2.7.0",
+    "@zsviczian/excalidraw": "0.13.0-obsidian",
+    "ignore": "^5.2.0",
+    "nanoid": "^4.0.0",
+    "next": "13.0.0",
+    "node-fetch": "^3.2.10",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "recursive-readdir": "^2.2.3"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.1.1",
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.0",
+    "turbo": "^1.6.3"
+  }
+}
